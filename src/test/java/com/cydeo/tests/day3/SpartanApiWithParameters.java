@@ -4,13 +4,7 @@ import org.apache.http.HttpStatus;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import io.restassured.http.ContentType;
-
-import io.restassured.http.Headers;
 import io.restassured.response.Response;
-
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-
 import static io.restassured.RestAssured.*;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -34,5 +28,11 @@ public class SpartanApiWithParameters {
         response.prettyPrint();
         System.out.println("response.statusCode() = " + response.statusCode());
         assertEquals(HttpStatus.SC_OK, response.statusCode());
+        System.out.println("response.contentType() = " + response.contentType());
+        System.out.println("Content-Type = " + response.getHeader("Content-Type"));
+
+        assertEquals("application/json",  response.contentType());
+        assertTrue(response.asString().contains("Blythe"));
+
     }
 }
