@@ -16,7 +16,8 @@ public class Q1 {
 - When user sends request to https://jsonplaceholder.typicode.com/posts
 -Then print response body
 - And status code is 200
-- And Content - Type is Json*/ String url = "https://jsonplaceholder.typicode.com/posts";
+- And Content - Type is Json*/
+    String url = "https://jsonplaceholder.typicode.com/posts";
 
     @DisplayName("practice Q1")
     @Test
