@@ -1,10 +1,10 @@
-package com.cydeo.pojo;/*
-{
+package com.cydeo.pojo;
+/*
         "id": 10,
         "name": "Lorenza",
         "gender": "Female",
         "phone": 3312820936
-        }*/
+        */
 
 import lombok.Data;
 
