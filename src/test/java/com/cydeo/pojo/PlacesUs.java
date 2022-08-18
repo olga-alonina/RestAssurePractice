@@ -16,6 +16,8 @@ public class PlacesUs {
     private String state;
     @JsonProperty("state abbreviation")
     private String stateAbbreviation;
+
+
     @JsonProperty("post code")
     private String postCode;
 
