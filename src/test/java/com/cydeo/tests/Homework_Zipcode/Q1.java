@@ -52,7 +52,7 @@ public class Q1 extends ZipCodeApiTestBase {
 
         //    place name is Fairfax
         List<Places> list = listOfInfo.getPlaces();
-        assertEquals("Fairfax", list.get(0).getPlacename());
+        assertEquals("Fairfax", list.get(0).getPlaceName());
         //    state is Virginia
         assertEquals("Virginia", list.get(0).getState());
         //    latitude is 38.8604

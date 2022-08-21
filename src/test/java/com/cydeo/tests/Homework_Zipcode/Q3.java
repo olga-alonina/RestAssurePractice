@@ -39,10 +39,10 @@ public class Q3 extends ZipCodeApiTestBase {
 
         List<Places> list = listOfInfo.getPlaces();
 //    place name  Fairfax
-        assertEquals("Fairfax", list.get(0).getPlacename());
+        assertEquals("Fairfax", list.get(0).getPlaceName());
 //    each places must: contains fairfax as a value
         for (Places eachPlace : list) {
-            assertTrue(eachPlace.getPlacename().toLowerCase().contains("fairfax"));
+            assertTrue(eachPlace.getPlaceName().toLowerCase().contains("fairfax"));
             //    each post code must start with 22
             assertTrue(eachPlace.getPostCode().startsWith("22"));
         }

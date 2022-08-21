@@ -17,7 +17,7 @@ import com.cydeo.utils.SpartanTestBase;
 
 public class SpartanPUTRequestTest extends SpartanTestBase {
     /**
-     Given accept type is json
+     Given :accept type is json
      And content type is json
      And path param id is 15
      And json body is

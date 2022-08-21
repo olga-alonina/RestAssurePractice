@@ -12,7 +12,7 @@ import lombok.Data;
 public class Places {
 
     @JsonProperty("place name")
-    private String placename;
+    private String placeName;
     private String longitude;
     private String state;
     @JsonProperty("state abbreviation")

@@ -1,22 +1,15 @@
 package com.cydeo.tests.day10_db_vs_api_put_delete;
 
-import com.cydeo.pojo.Spartan;
+
 import com.cydeo.utils.ConfigurationReader;
 import com.cydeo.utils.DBUtils;
 import com.cydeo.utils.SpartanTestBase;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.junit.jupiter.api.*;
 import io.restassured.http.ContentType;
-
 import java.util.*;
-
-import static com.cydeo.utils.SpartanRestUtils.*;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-
-import com.cydeo.utils.SpartanTestBase;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
