@@ -1,0 +1,8 @@
+{
+  "id": "integer",
+  "name": "string",
+  "description": "string",
+  "capacity": "integer",
+  "withTV": "boolean",
+  "withWhiteBoard": "boolean"
+}

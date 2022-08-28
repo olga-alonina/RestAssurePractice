@@ -1,0 +1,20 @@
+{
+  "id": "Integer",
+  "location": "string",
+  "clusters": [
+    {
+      "id": "integer",
+      "name": "string",
+      "rooms": [
+        {
+          "id": "integer",
+          "name": "string",
+          "description": "string",
+          "capacity": "integer",
+          "withTV": "boolean",
+          "withWhiteBoard": "boolean"
+        }
+      ]
+    }
+  ]
+}

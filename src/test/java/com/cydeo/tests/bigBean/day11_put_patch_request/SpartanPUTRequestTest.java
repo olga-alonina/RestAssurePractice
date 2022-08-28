@@ -1,4 +1,4 @@
-package com.cydeo.tests.day11_put_patch_request;
+package com.cydeo.tests.bigBean.day11_put_patch_request;
 
 import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;

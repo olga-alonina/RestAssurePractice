@@ -1,4 +1,4 @@
-package com.cydeo.tests.bigBean.day06XMLpath_deserialixation;
+package com.cydeo.tests.bigBean.day06XMLpath_deserialization;
 
 import com.cydeo.utils.SpartanTestBase;
 

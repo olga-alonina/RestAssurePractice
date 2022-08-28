@@ -1,7 +1,6 @@
-package com.cydeo.tests.day11_put_patch_request;
+package com.cydeo.tests.bigBean.day11_put_patch_request;
 
 import com.cydeo.utils.SpartanRestUtils;
-import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import io.restassured.http.ContentType;

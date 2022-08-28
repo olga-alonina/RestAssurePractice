@@ -1,4 +1,4 @@
-package com.cydeo.tests.day10_db_vs_api_put_delete;
+package com.cydeo.tests.bigBean.day10_db_vs_api_put_delete;
 
 
 import com.cydeo.utils.ConfigurationReader;
